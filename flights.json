@@ -1,0 +1,24 @@
+{
+    "flights": [
+      { "destination": "Nueva York", "price": 300 },
+      { "destination": "Londres", "price": 350 },
+      { "destination": "Paris", "price": 400 },
+      { "destination": "Tokio", "price": 450 },
+      { "destination": "Sidney", "price": 500 },
+      { "destination": "Los Angeles", "price": 550 },
+      { "destination": "Berlin", "price": 600 },
+      { "destination": "Dubai", "price": 650 },
+      { "destination": "Hong Kong", "price": 700 },
+      { "destination": "Roma", "price": 750 },
+      { "destination": "Bogotá", "price": 350 },
+      { "destination": "Buenos Aires", "price": 450 },
+      { "destination": "Mexico DF", "price": 900 },
+      { "destination": "Madrid", "price": 950 },
+      { "destination": "Moscú", "price": 1000 },
+      { "destination": "Beijing", "price": 1050 },
+      { "destination": "Chicago", "price": 1100 },
+      { "destination": "San Francisco", "price": 1150 },
+      { "destination": "Lima", "price": 200 },
+      { "destination": "Toronto", "price": 1250 }
+    ]
+  }

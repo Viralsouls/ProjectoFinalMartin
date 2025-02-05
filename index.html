@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva tus Vuelos</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#booking">Reservar</a></li>
+        <li><a href="#reservations">Reservas</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Reserva tus vuelos soñados ✈️</h1>
+  </header>
+  <section id="home" class="hero">
+    <h2>Encuentra los mejores vuelos al mejor precio</h2>
+    <button onclick="document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });">Comienza a Reservar</button>
+  </section>
+  <main>
+    <section id="booking">
+      <h2>Reservar Vuelo</h2>
+      <form id="flightForm">
+        <label for="tripType">Tipo de Vuelo:</label>
+        <select id="tripType">
+          <option value="oneWay">Ida</option>
+          <option value="roundTrip">Ida y vuelta</option>
+        </select>
+        <label for="date">Fecha de Ida:</label>
+        <input type="date" id="date" required>
+        <div id="roundTripOptions">
+          <label for="returnDate">Fecha de Vuelta:</label>
+          <input type="date" id="returnDate">
+        </div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+        <label for="destination">Destino:</label>
+        <select id="destination" required></select>
+        <label for="amount">Cantidad de Tiquetes:</label>
+        <input type="number" id="amount" min="1" required>
+        <label for="currency">Moneda:</label>
+        <select id="currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="COP">COP</option>
+        </select>
+        <button type="submit">Reservar</button>
+      </form>
+    </section>
+    <section id="reservations">
+      <h2>Gestión de Reservas</h2>
+      <button id="filterByDestination">Filtrar por Destino</button>
+      <button id="sortByDate">Ordenar por Fecha</button>
+      <button id="sortByTickets">Ordenar por Tiquetes</button>
+      <div id="bookingList"></div>
+    </section>
+  </main>
+  <footer id="contact">
+    <p>© 2025 Reserva tus Vuelos. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </footer>
+  <button id="goTopBtn" onclick="scrollToTop()">↑</button>
+  <script type="module" src="./scripts/app.js"></script>
+  <script>
+    // Funcion para volver arriba al deslizar hacia abajo
+    window.onscroll = function() {
+      const goTopBtn = document.getElementById("goTopBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        goTopBtn.style.display = "block";
+      } else {
+        goTopBtn.style.display = "none";
+      }
+    };
+
+    // Regresar al inicio
+    function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+</html>

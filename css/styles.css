@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+     background: linear-gradient(to right, #f8f9fa, #e9ecef);
+     color: #333;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+   }
+   
+   nav {
+     background: #18392B;
+     padding: 10px;
+   }
+   
+   nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+   }
+   
+   nav ul li {
+     margin: 0 15px;
+   }
+   
+   nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+   }
+   
+   header {
+     background: #18392B;
+     padding: 20px;
+     color: #fff;
+   }
+   
+   .hero {
+     background: url('../images/hero.jpg') no-repeat center center;
+     background-size: cover;
+     padding: 60px 20px;
+     color: #fff;
+   }
+   
+   .hero h2 {
+     font-size: 2.5em;
+     margin: 0 0 20px;
+   }
+   
+   .hero button {
+     background: #18392B;
+     color: #fff;
+     border: none;
+     padding: 15px 30px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+   }
+   
+   .hero button:hover {
+     background: #12291F;
+   }
+   
+   main {
+     background: #fff;
+     padding: 20px;
+     margin: 20px auto;
+     width: 80%;
+     max-width: 800px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   section {
+     margin-bottom: 40px;
+   }
+   
+   form {
+     background: #f8f9fa;
+     padding: 20px;
+     width: calc(100% - 40px);
+     margin: 10px auto;
+     border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   form label {
+     display: block;
+     margin: 10px 0 5px;
+     color: #495057;
+   }
+   
+   form input, form select {
+     width: calc(100% - 22px);
+     padding: 10px;
+     margin: 5px auto;
+     border: 1px solid #ced4da;
+     border-radius: 5px;
+     box-sizing: border-box;
+   }
+   
+   form button {
+     background: #18392B;
+     color: #fff;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+   }
+   
+   form button:hover {
+     background: #145A32;
+   }
+   
+   #bookingList .booking-card {
+     background: #fff;
+     border: 1px solid #ced4da;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px auto;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   #bookingList .booking-card h3 {
+     margin-top: 0;
+     color: #18392B;
+   }
+   
+   #bookingList .booking-card p {
+     margin: 5px 0;
+     color: #495057;
+   }
+   
+   footer {
+     background: #18392B;
+     padding: 20px;
+     color: #fff;
+   }
+   
+   footer ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+   }
+   
+   footer ul li {
+     margin: 0 15px;
+   }
+   
+   footer ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+   }

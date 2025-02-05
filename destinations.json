@@ -1,0 +1,8 @@
+{
+    "destinations": [
+        "Nueva York", "Londres", "Paris", "Tokio", "Sidney", 
+        "Los Angeles", "Berlin", "Dubai", "Hong Kong", "Roma",
+        "Bogotá", "Buenos Aires", "Mexico DF", "Madrid", "Moscú",
+        "Beijing", "Chicago", "San Francisco", "Lima", "Toronto"
+    ]
+}
